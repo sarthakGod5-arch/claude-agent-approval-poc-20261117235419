@@ -19,5 +19,5 @@ jobs:
       - uses: anthropics/claude-code-action/agent-approval-check@e5812cd75691ca7bbfc57c0ecf4441db3a1ab7dd
         with:
           required_approvals: 2
-          agent_emails: 41898282+claude[bot]@users.noreply.github.com
+          agent_emails: noreply@anthropic.com
           agent_logins: claude[bot],claude-code[bot]
